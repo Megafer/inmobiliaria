@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="titulo">Inmobiliaria</h1>
+        <h3 class="logo">Logo</h3>
+    </div>
+    <nav id="nav-3" class="menu">
+        <a class="link-3" href="#">Home</a>
+        <a class="link-3" href="#nos">Nosotros</a>
+        <a class="link-3" href="#alq">Alquiler</a>
+        <a class="link-3" href="#">Venta</a>
+        <a class="link-3" href="#">Contacto</a>
+      </nav>
+    <br>
+    <div class="inicio"></div>
+    <br id="nos">
+    <div class="uno" >
+        <h3 class="nos">Nosotros</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias a eveniet, amet architecto optio explicabo, iure eaque at fugit nihil dolorum odit possimus repellendus. Perspiciatis similique dolore quisquam odio repellat placeat alias temporibus excepturi nesciunt, consequatur vel exercitationem ea laudantium quis dolorum dolor adipisci aperiam nisi quibusdam dolores reprehenderit natus. Maiores fugit laudantium vel repellat delectus quos perspiciatis blanditiis nulla vero. Necessitatibus laboriosam quae ut omnis rerum, libero distinctio! Recusandae aliquam totam perferendis quae. Ducimus, doloremque quasi nihil voluptas sequi deserunt? Maiores unde sunt laborum nobis accusamus ipsa aut magni. Excepturi repellendus ab quis optio nisi perferendis porro repellat.</p><br>
+    </div> 
+    <br>
+    <div class="uno">
+        <h3 class="nos">Historia</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias a eveniet, amet architecto optio explicabo, iure eaque at fugit nihil dolorum odit possimus repellendus. Perspiciatis similique dolore quisquam odio repellat placeat alias temporibus excepturi nesciunt, consequatur vel exercitationem ea laudantium quis dolorum dolor adipisci aperiam nisi quibusdam dolores reprehenderit natus. Maiores fugit laudantium vel repellat delectus quos perspiciatis blanditiis nulla vero. Necessitatibus laboriosam quae ut omnis rerum, libero distinctio! Recusandae aliquam totam perferendis quae. Ducimus, doloremque quasi nihil voluptas sequi deserunt? Maiores unde sunt laborum nobis accusamus ipsa aut magni. Excepturi repellendus ab quis optio nisi perferendis porro repellat.</p><br>
+    </div> 
+    <br>
+    <div class="uno">
+        <h3 class="nos">Nuestras Oficinas</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias a eveniet, amet architecto optio explicabo, iure eaque at fugit nihil dolorum odit possimus repellendus. Perspiciatis similique dolore quisquam odio repellat placeat alias temporibus excepturi nesciunt, consequatur vel exercitationem ea laudantium quis dolorum dolor adipisci aperiam nisi quibusdam dolores reprehenderit natus. Maiores fugit laudantium vel repellat delectus quos perspiciatis blanditiis nulla vero. Necessitatibus laboriosam quae ut omnis rerum, libero distinctio! Recusandae aliquam totam perferendis quae. Ducimus, doloremque quasi nihil voluptas sequi deserunt? Maiores unde sunt laborum nobis accusamus ipsa aut magni. Excepturi repellendus ab quis optio nisi perferendis porro repellat.</p><br>
+        <div class="ofi"><img src="img/3.jpg" width="40%" height="40%"/></div>
+        <div class="ofi"><img src="img/4.jpg" width="40%" height="40%"/></div>
+
+    </div> 
+    <br id="alq">
+    <div class="uno">
+        <h3 class="nos">Alquileres</h3>
+        <div class="nos">
+        <img src="img/5.jpg" width="400px" height="300px"/>
+        <img src="img/6.jpg" width="400px" height="300px"/>
+        <img src="img/7.jpg" width="400px" height="300px"/>
+        <img src="img/8.jpg" width="400px" height="300px"/>
+        
+    </div>
+
+    </div>
+ 
+
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+       $(document).ready(function(){
+	var altura = $('.menu').offset().top;
+	
+	$(window).on('scroll', function(){
+		if ( $(window).scrollTop() > altura ){
+			$('.menu').addClass('menu-fixed');
+		} else {
+			$('.menu').removeClass('menu-fixed');
+		}
+	});
+
+});
+    </script>
+</body>
+
+</html>

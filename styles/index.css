@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    padding:0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(247, 247, 247)
+}
+
+@media (max-width:640px){
+    
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(197, 195, 195);
+    display: flex;
+    flex-flow: row nowrap;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo {
+    color: green;
+    letter-spacing: 3px;
+    /* padding: 0px 0px 0 20px;
+    width: 300px; */
+    text-shadow:#000000d9 1px 1px 0px;
+}
+
+
+.logo {
+   font-size: 30px;
+   text-shadow: 0 1px 0 #ffffff; 
+}
+
+nav {
+    /* margin-top: 40px; */
+    /* padding: 24px; */
+    text-align: center;
+    font-family: Nunito;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+#nav-3 {
+    background: #3fa46a;
+    padding: 8px 0;
+  }
+
+  .link-3 {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    /* padding: 0 10px; */
+    padding: 0 10px;
+    margin: 0 -3px;  
+}
+  .link-3:hover {
+    background-color: #ffffff;
+    color: #3fa46a;
+    padding: 8px 10px;
+  }  
+
+.inicio {
+    background-image: url(../img/2.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+
+}  
+
+.uno {
+    width: 85%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.918);
+    box-shadow: 0 0 11px 0px rgba(101, 101, 101, 0.53);
+    border-radius: 10px;
+    margin: auto;
+    padding: 0px 15px;
+}  
+.nos {
+    text-align: center;
+    padding: 10px 0;
+}
+
+p {
+    margin: 0 8px;
+}
+.menu-fixed {
+    position:fixed;
+    z-index:1000;
+    top:0;
+    /* max-width:1000px; */
+    width:100%;
+    box-shadow:0px 4px 3px rgba(0,0,0,.5);
+} 
+.ofi {
+    background-color: #ffffff;
+    padding: 5px 10px 0px 10px;
+    margin:2px;
+    display: inline;  
+}
+
+.ofi img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.nos img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+
+
+}
+
+
+  /* PARA TABLET */
+
+@media(min-width:640px)  {
+    /*ESTE CÓDIGO ES PARA AGRANDAR LAS LETRAS, NO CAMBIA EN NADA EL MENÚ, SI GUSTAN PUEDEN BORRARLO NOrMAL*/
+    .header {
+        width: 100%;
+        height: 150px;
+        background-color: rgb(197, 195, 195);
+        display: flex;
+        flex-flow: row nowrap;
+        background-image: url(../img/1.jpg);
+        background-size: cover;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .titulo {
+        color: green;
+        letter-spacing: 3px;
+        /* padding: 0px 0px 0 20px;
+        width: 300px; */
+        text-shadow:#000000d9 1px 1px 0px;
+    }
+    
+    
+    .logo {
+       font-size: 30px;
+       text-shadow: 0 1px 0 #ffffff; 
+    }
+    
+    nav {
+        /* margin-top: 40px; */
+        padding: 24px;
+        text-align: center;
+        font-family: Nunito;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      }
+    
+    #nav-3 {
+        background: #3fa46a;
+      }
+    
+      .link-3 {
+        transition: 0.4s;
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 0 10px;
+        margin: 0 10px;
+      }
+      .link-3:hover {
+        background-color: #ffffff;
+        color: #3fa46a;
+        padding: 24px 10px;
+      }
+
+      .inicio {
+        background-image: url(../img/2.jpg);
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        
+    } 
+
+      .uno {
+        width: 85%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.918);
+        box-shadow: 0 0 11px 0px rgba(101, 101, 101, 0.53);
+        border-radius: 10px;
+        margin: auto;
+        padding: 0px 15px;
+    }  
+    .nos {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    p {
+        margin: 0 8px;
+    }  
+    .menu-fixed {
+        position:fixed;
+        z-index:1000;
+        top:0;
+        /* max-width:1000px; */
+        width:100%;
+        box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    }     
+    .ofi {
+        background-color: #ffffff;
+        padding: 5px 10px 5px 10px;
+        margin:2px;
+        display: inline;  
+    }
+    .ofi img{
+        width: 45%;
+        height: auto;
+        margin: auto;
+        border-radius: 8px;
+    }
+    .nos img{
+        width: 45%;
+        height: auto;
+        margin: auto;
+        border-radius: 8px;
+    }
+
+}
+
+
+
+/* PARA PC */
+
+@media(min-width:860px){
+
+    .header {
+        width: 100%;
+        height: 150px;
+        background-color: rgb(197, 195, 195);
+        display: flex;
+        flex-flow: row nowrap;
+        background-image: url(../img/1.jpg);
+        background-size: cover;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .titulo {
+        color: green;
+        letter-spacing: 3px;
+        /* padding: 0px 0px 0 20px;
+        width: 300px; */
+        text-shadow:#000000d9 1px 1px 0px;
+    }
+    
+    
+    .logo {
+       font-size: 30px;
+       text-shadow: 0 1px 0 #ffffff; 
+    }
+    
+    nav {
+        /* margin-top: 40px; */
+        padding: 24px;
+        text-align: center;
+        font-family: Nunito;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+      }
+    
+    #nav-3 {
+        background: #3fa46a;
+      }
+    
+      .link-3 {
+        transition: 0.4s;
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 0 10px;
+        margin: 0 10px;
+      }
+      .link-3:hover {
+        background-color: #ffffff;
+        color: #3fa46a;
+        padding: 24px 10px;
+      }
+
+      .inicio {
+        background-image: url(../img/2.jpg);
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        
+    } 
+      .uno {
+        width: 85%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.918);
+        box-shadow: 0 0 11px 0px rgba(101, 101, 101, 0.53);
+        border-radius: 10px;
+        margin: auto;
+        padding: 0px 15px;
+    }  
+    .nos {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    p {
+        margin: 0 8px;
+    }
+    .menu-fixed {
+        position:fixed;
+        z-index:1000;
+        top:0;
+        /* max-width:1000px; */
+        width:100%;
+        box-shadow:0px 4px 3px rgba(0,0,0,.5);
+    }    
+
+    .ofi {
+        background-color: #ffffff;
+        padding: 5px 10px 0px 10px;
+        margin:2px;
+        display: inline;  
+    }
+    
+    .nos img {
+        border-radius: 8px;
+
+    }
+}
+
