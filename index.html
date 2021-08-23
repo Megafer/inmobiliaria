@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inmobiliaria</title>
     <link rel="stylesheet" href="styles/index.css">
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -17,8 +17,8 @@
         <a class="link-3" href="#">Home</a>
         <a class="link-3" href="#nos">Nosotros</a>
         <a class="link-3" href="#alq">Alquiler</a>
-        <a class="link-3" href="#">Venta</a>
-        <a class="link-3" href="#">Contacto</a>
+        <a class="link-3" href="#ventas">Venta</a>
+        <a class="link-3" href="#form">Contacto</a>
       </nav>
     <br>
     <div class="inicio"></div>
@@ -41,17 +41,53 @@
 
     </div> 
     <br id="alq">
-    <div class="uno">
+    <div class="uno" id="unoalq">
         <h3 class="nos">Alquileres</h3>
         <div class="nos">
         <img src="img/5.jpg" width="400px" height="300px"/>
         <img src="img/6.jpg" width="400px" height="300px"/>
         <img src="img/7.jpg" width="400px" height="300px"/>
-        <img src="img/8.jpg" width="400px" height="300px"/>
+        <img src="img/8.jpg" width="400px" height="300px"/>   
     </div>
+    </div>
+ 
+    <br id="ventas">
+    <div class="uno" id="unoalq">
+        <h3 class="nos">Ventas</h3>
+        <div class="nos">
+        <img src="img/5.jpg" width="400px" height="300px"/>
+        <img src="img/6.jpg" width="400px" height="300px"/>
+        <img src="img/7.jpg" width="400px" height="300px"/>
+        <img src="img/8.jpg" width="400px" height="300px"/>   
+    </div>
+    </div>
+    <br>
+    <!-- Aqui irá nuestro formulario -->
+    <section class="final">
+        <form id="form" action="enviar.php" method="post" name="form1" enctype="multipart/form-data">
+            <h3 class="form" id="">Formulario de Contacto:</h3>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="nombre" placeholder="Nombre completo" required>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="Su mail" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Deje aqui su mensaje..."></textarea>
+            <input id="submit" name="submit" type="submit" value="Enviar">
+        </form>
+        </section>
+        
+    </div>
+    <footer>
+        <div class="pie">
+          <h3 class="txtpie"><a id="linkpie" href="#">@2021 Inmobiliaria
+            <br> Buenos Aires - Argentina
+            <br> <a class="fn" href="http://fnsoluciones.com.ar">fnsoluciones.com.ar</a>
+        </h3>
+        </div>
+      </footer>
 
-    </div>
-     <script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
        $(document).ready(function(){
 	var altura = $('.menu').offset().top;
 	
