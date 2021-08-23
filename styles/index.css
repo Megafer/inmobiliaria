@@ -121,16 +121,124 @@ p {
     width: 90%;
     height: auto;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 18px;
+    margin: 5px;
+    box-shadow: #6f6a6a 2px 2px 10px;
 }
 
 .nos img{
     width: 90%;
     height: auto;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 18px;
+    margin: 5px;
+    box-shadow: #6f6a6a 2px 2px 10px;
 }
 
+/*FORMULARIO*/
+.final {
+    display: flex;
+    justify-content: center;
+  margin:1px 12px;
+  width:auto;
+  height: auto;
+  margin-top: 21px;
+
+}
+
+#form {
+    /* display: inline-grid; */
+    border: #00000054 1px solid;
+    padding: 10px;
+    border-radius: 18px;
+    /* height: 350px; */
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 11px 0px rgba(101, 101, 101, 0.53);
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    text-shadow: 2px 2px 4px grey;
+    
+  }
+
+  input, textarea {
+    width:330px;
+    height:33px;
+    background:rgba(255, 255, 255, 0.62);
+    border:0px solid #d4d1d1;
+    padding:10px;
+    margin-top:5px;
+    font-size:14px;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(61, 61, 61);
+    border-radius: 6px ;
+    box-shadow: 1px 1px 4px 1px #9a9a9a;
+    transition: all .3s ease-out;
+    
+  }
+
+  textarea:hover {
+    background:#91909044;
+    box-shadow: 2px 2px 12px rgb(207, 207, 207);
+  }
+  
+  input:hover {
+    background:#91909044;
+    box-shadow: 2px 2px 12px rgb(207, 207, 207);
+  }
+  
+  textarea {
+    height:150px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  #submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    border:0px solid #d4d1d1;
+  }
+
+ /* EDITAR EL TEXTO DEL PIE */
+/* Div DEL PIE */
+.pie {
+    background-color: #3fa46a;
+    color: white;
+    width:100%;
+    height:80px;
+    margin: 0;
+    margin-top:0;
+    /* padding-top: 10px; */
+  } 
+
+.txtpie {
+    /* width: 265px; */
+    letter-spacing: 1px;
+    text-align: center;
+    transition: all .3s ease-out;
+  }
+  
+  h3.txtpie:hover {
+    transform: translate(0, 5px);
+  }
+  
+  #linkpie {
+    text-decoration: none;
+      color: rgb(255, 255, 255);
+  }
+
+  .fn {
+      text-decoration: none;
+      font-size: 15px;
+      color: rgb(235, 233, 233);
+  }
+  
+  /* FIN DEL TEXTO DEL PIE */ 
 
 }
 
@@ -210,7 +318,7 @@ p {
     }  
     .nos {
         text-align: center;
-        padding: 10px 0;
+        padding: 15px 0;
     }
     
     p {
@@ -226,22 +334,130 @@ p {
     }     
     .ofi {
         background-color: #ffffff;
-        padding: 5px 10px 5px 10px;
+        padding: 0px 10px 0px 10px;
         margin:2px;
         display: inline;  
     }
     .ofi img{
-        width: 45%;
+        width: 40%;
         height: auto;
         margin: auto;
-        border-radius: 8px;
+        border-radius: 18px;
+        box-shadow: #6f6a6a 2px 2px 10px;
+        margin: 5px;
     }
     .nos img{
         width: 45%;
         height: auto;
         margin: auto;
-        border-radius: 8px;
+        border-radius: 18px;
+        box-shadow: #6f6a6a 2px 2px 10px;
+        margin: 5px;
     }
+/*FORMULARIO*/
+.final {
+    display: flex;
+    justify-content: center;
+  margin:1px 12px;
+  width:auto;
+  height: auto;
+  margin-top: 21px;
+
+}
+
+#form {
+    /* display: inline-grid; */
+    border: #00000054 1px solid;
+    padding: 10px;
+    border-radius: 18px;
+    /* height: 350px; */
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 11px 0px rgba(101, 101, 101, 0.53);
+}
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    text-shadow: 2px 2px 4px grey;
+    
+  }
+
+  input, textarea {
+    width:330px;
+    height:33px;
+    background:rgba(255, 255, 255, 0.62);
+    border:0px solid #d4d1d1;
+    padding:10px;
+    margin-top:5px;
+    font-size:14px;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(61, 61, 61);
+    border-radius: 6px ;
+    box-shadow: 1px 1px 4px 1px #9a9a9a;
+    transition: all .3s ease-out;
+    
+  }
+
+  textarea:hover {
+    background:#91909044;
+    box-shadow: 2px 2px 12px rgb(207, 207, 207);
+  }
+  
+  input:hover {
+    background:#91909044;
+    box-shadow: 2px 2px 12px rgb(207, 207, 207);
+  }
+  
+  textarea {
+    height:150px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  #submit {
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    border:0px solid #d4d1d1;
+  }
+
+ /* EDITAR EL TEXTO DEL PIE */
+/* Div DEL PIE */
+.pie {
+    background-color: #3fa46a;
+    color: white;
+    width:100%;
+    height:80px;
+    margin: 0;
+    margin-top:0;
+    /* padding-top: 10px; */
+  } 
+
+.txtpie {
+    /* width: 265px; */
+    letter-spacing: 1px;
+    text-align: center;
+    transition: all .3s ease-out;
+  }
+  
+  h3.txtpie:hover {
+    transform: translate(0, 5px);
+  }
+  
+  #linkpie {
+    text-decoration: none;
+      color: rgb(255, 255, 255);
+  }
+
+  .fn {
+      text-decoration: none;
+      font-size: 15px;
+      color: rgb(235, 233, 233);
+  }
+  
+  /* FIN DEL TEXTO DEL PIE */ 
 
 }
 
@@ -321,7 +537,7 @@ p {
     }  
     .nos {
         text-align: center;
-        padding: 10px 0;
+        padding: 15px 0;
     }
     
     p {
@@ -343,9 +559,15 @@ p {
         display: inline;  
     }
     
+    .ofi img {
+        width: 45%;
+        
+    }
+
     .nos img {
         border-radius: 8px;
 
     }
+
 }
 
